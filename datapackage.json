@@ -1,0 +1,411 @@
+{
+    "profile": "tabular-data-package", 
+    "name": "Dotations Globales de Fonctionnement", 
+    "contributors": [
+        {
+            "email": "christian.quest@data.gouv.fr", 
+            "title": "Christian Quest"
+        }
+    ], 
+    "created": "2018-03-16", 
+    "licences": [
+        {
+            "path": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf", 
+            "name": "LO-2.0", 
+            "title": "Licence Ouverte 2.0"
+        }
+    ], 
+    "temporal": {
+        "start": "2014-01-01", 
+        "end": "2017-12-31"
+    }, 
+    "sources": [
+        {
+            "path": "http://www.dotations-dgcl.interieur.gouv.fr/", 
+            "title": "DGCL"
+        }
+    ], 
+    "homepage": "http://www.dotations-dgcl.interieur.gouv.fr/", 
+    "resources": [
+        {
+            "profile": "tabular-data-resource", 
+            "name": "2014", 
+            "format": "csv", 
+            "encoding": "utf-8", 
+            "mediatype": "text/csv", 
+            "path": "2014.csv", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string", 
+                        "name": "depcom", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "commune", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dotation_forfaitaire", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dotation_elu_local", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsu", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_bc", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_p", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dnp", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dacom", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_c", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_prelevement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_versement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_solde", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrif_prelevement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrif_versement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrid_solde", 
+                        "format": "default"
+                    }
+                ], 
+                "missingValues": [
+                    ""
+                ]
+            }
+        }, 
+        {
+            "profile": "tabular-data-resource", 
+            "name": "2015", 
+            "encoding": "utf-8", 
+            "format": "csv", 
+            "mediatype": "text/csv", 
+            "path": "2015.csv", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string", 
+                        "name": "depcom", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "commune", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dotation_forfaitaire", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dotation_elu_local", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsu", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_bc", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_p", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dnp", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dacom", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_c", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_prelevement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_versement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_solde", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrif_prelevement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrif_versement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrid_solde", 
+                        "format": "default"
+                    }
+                ], 
+                "missingValues": [
+                    ""
+                ]
+            }
+        }, 
+        {
+            "profile": "tabular-data-resource", 
+            "name": "2016", 
+            "format": "csv", 
+            "encoding": "utf-8", 
+            "mediatype": "text/csv", 
+            "path": "2016.csv", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string", 
+                        "name": "depcom", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "commune", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dotation_forfaitaire", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dotation_elu_local", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsu", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_bc", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_p", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dnp", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dacom", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_c", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_prelevement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_versement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_solde", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrif_prelevement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrif_versement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrid_solde", 
+                        "format": "default"
+                    }
+                ], 
+                "missingValues": [
+                    ""
+                ]
+            }
+        }, 
+        {
+            "profile": "tabular-data-resource", 
+            "name": "2017", 
+            "encoding": "utf-8", 
+            "format": "csv", 
+            "mediatype": "text/csv", 
+            "path": "2017.csv", 
+            "schema": {
+                "fields": [
+                    {
+                        "type": "string", 
+                        "name": "depcom", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "string", 
+                        "name": "commune", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dotation_forfaitaire", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dotation_elu_local", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsu", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_bc", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_p", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dnp", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dacom", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "dsr_c", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_prelevement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_versement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fpic_solde", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrif_prelevement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrif_versement", 
+                        "format": "default"
+                    }, 
+                    {
+                        "type": "integer", 
+                        "name": "fsrid_solde", 
+                        "format": "default"
+                    }
+                ], 
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
