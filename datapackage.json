@@ -37,84 +37,114 @@
             "schema": {
                 "fields": [
                     {
+                        "format": "default", 
+                        "constraints": [
+                            {
+                                "pattern": "[0-9][0-9A-B][0-9]{3}", 
+                                "unique": true, 
+                                "required": true
+                            }
+                        ], 
                         "type": "string", 
                         "name": "depcom", 
-                        "format": "default"
+                        "title": "Code INSEE de la commune"
                     }, 
                     {
+                        "format": "default", 
+                        "constraints": [
+                            {
+                                "minLength": 1, 
+                                "required": true, 
+                                "maxLength": 45
+                            }
+                        ], 
                         "type": "string", 
                         "name": "commune", 
-                        "format": "default"
+                        "title": "Nom de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dotation_forfaitaire", 
-                        "format": "default"
+                        "title": "dotation forfaitaire (DF)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dotation_elu_local", 
-                        "format": "default"
+                        "title": "dotation \u00e9lu local (DPEL)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsu", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 urbaine et de coh\u00e9sion sociale (DSU)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_bc", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"bourg centre\" (DSR BC)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_p", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"p\u00e9r\u00e9quation\" (DSR P)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dnp", 
-                        "format": "default"
+                        "title": "dotation nationale de p\u00e9r\u00e9quation (DNP)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dacom", 
-                        "format": "default"
+                        "title": "dotation d'am\u00e9nagement des communes d'outre-mer (DACOM)'"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_c", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"cible\" (DSR C)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_prelevement", 
-                        "format": "default"
+                        "title": "Pr\u00e9l\u00e8vement de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_versement", 
-                        "format": "default"
+                        "title": "Versement FPIC au profit de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_solde", 
-                        "format": "default"
+                        "title": "Solde FPIC de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrif_prelevement", 
-                        "format": "default"
+                        "title": "Pr\u00e9l\u00e8vement FSRIF de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrif_versement", 
-                        "format": "default"
+                        "title": "Versement FSRIF de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrid_solde", 
-                        "format": "default"
+                        "title": "Solde FSRIF de la commune"
                     }
                 ], 
                 "missingValues": [
@@ -132,84 +162,114 @@
             "schema": {
                 "fields": [
                     {
+                        "format": "default", 
+                        "constraints": [
+                            {
+                                "pattern": "[0-9][0-9A-B][0-9]{3}", 
+                                "unique": true, 
+                                "required": true
+                            }
+                        ], 
                         "type": "string", 
                         "name": "depcom", 
-                        "format": "default"
+                        "title": "Code INSEE de la commune"
                     }, 
                     {
+                        "format": "default", 
+                        "constraints": [
+                            {
+                                "minLength": 1, 
+                                "required": true, 
+                                "maxLength": 45
+                            }
+                        ], 
                         "type": "string", 
                         "name": "commune", 
-                        "format": "default"
+                        "title": "Nom de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dotation_forfaitaire", 
-                        "format": "default"
+                        "title": "dotation forfaitaire (DF)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dotation_elu_local", 
-                        "format": "default"
+                        "title": "dotation \u00e9lu local (DPEL)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsu", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 urbaine et de coh\u00e9sion sociale (DSU)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_bc", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"bourg centre\" (DSR BC)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_p", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"p\u00e9r\u00e9quation\" (DSR P)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dnp", 
-                        "format": "default"
+                        "title": "dotation nationale de p\u00e9r\u00e9quation (DNP)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dacom", 
-                        "format": "default"
+                        "title": "dotation d'am\u00e9nagement des communes d'outre-mer (DACOM)'"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_c", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"cible\" (DSR C)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_prelevement", 
-                        "format": "default"
+                        "title": "Pr\u00e9l\u00e8vement de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_versement", 
-                        "format": "default"
+                        "title": "Versement FPIC au profit de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_solde", 
-                        "format": "default"
+                        "title": "Solde FPIC de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrif_prelevement", 
-                        "format": "default"
+                        "title": "Pr\u00e9l\u00e8vement FSRIF de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrif_versement", 
-                        "format": "default"
+                        "title": "Versement FSRIF de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrid_solde", 
-                        "format": "default"
+                        "title": "Solde FSRIF de la commune"
                     }
                 ], 
                 "missingValues": [
@@ -227,84 +287,114 @@
             "schema": {
                 "fields": [
                     {
+                        "format": "default", 
+                        "constraints": [
+                            {
+                                "pattern": "[0-9][0-9A-B][0-9]{3}", 
+                                "unique": true, 
+                                "required": true
+                            }
+                        ], 
                         "type": "string", 
                         "name": "depcom", 
-                        "format": "default"
+                        "title": "Code INSEE de la commune"
                     }, 
                     {
+                        "format": "default", 
+                        "constraints": [
+                            {
+                                "minLength": 1, 
+                                "required": true, 
+                                "maxLength": 45
+                            }
+                        ], 
                         "type": "string", 
                         "name": "commune", 
-                        "format": "default"
+                        "title": "Nom de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dotation_forfaitaire", 
-                        "format": "default"
+                        "title": "dotation forfaitaire (DF)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dotation_elu_local", 
-                        "format": "default"
+                        "title": "dotation \u00e9lu local (DPEL)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsu", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 urbaine et de coh\u00e9sion sociale (DSU)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_bc", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"bourg centre\" (DSR BC)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_p", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"p\u00e9r\u00e9quation\" (DSR P)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dnp", 
-                        "format": "default"
+                        "title": "dotation nationale de p\u00e9r\u00e9quation (DNP)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dacom", 
-                        "format": "default"
+                        "title": "dotation d'am\u00e9nagement des communes d'outre-mer (DACOM)'"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_c", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"cible\" (DSR C)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_prelevement", 
-                        "format": "default"
+                        "title": "Pr\u00e9l\u00e8vement de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_versement", 
-                        "format": "default"
+                        "title": "Versement FPIC au profit de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_solde", 
-                        "format": "default"
+                        "title": "Solde FPIC de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrif_prelevement", 
-                        "format": "default"
+                        "title": "Pr\u00e9l\u00e8vement FSRIF de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrif_versement", 
-                        "format": "default"
+                        "title": "Versement FSRIF de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrid_solde", 
-                        "format": "default"
+                        "title": "Solde FSRIF de la commune"
                     }
                 ], 
                 "missingValues": [
@@ -322,84 +412,114 @@
             "schema": {
                 "fields": [
                     {
+                        "format": "default", 
+                        "constraints": [
+                            {
+                                "pattern": "[0-9][0-9A-B][0-9]{3}", 
+                                "unique": true, 
+                                "required": true
+                            }
+                        ], 
                         "type": "string", 
                         "name": "depcom", 
-                        "format": "default"
+                        "title": "Code INSEE de la commune"
                     }, 
                     {
+                        "format": "default", 
+                        "constraints": [
+                            {
+                                "minLength": 1, 
+                                "required": true, 
+                                "maxLength": 45
+                            }
+                        ], 
                         "type": "string", 
                         "name": "commune", 
-                        "format": "default"
+                        "title": "Nom de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dotation_forfaitaire", 
-                        "format": "default"
+                        "title": "dotation forfaitaire (DF)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dotation_elu_local", 
-                        "format": "default"
+                        "title": "dotation \u00e9lu local (DPEL)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsu", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 urbaine et de coh\u00e9sion sociale (DSU)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_bc", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"bourg centre\" (DSR BC)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_p", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"p\u00e9r\u00e9quation\" (DSR P)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dnp", 
-                        "format": "default"
+                        "title": "dotation nationale de p\u00e9r\u00e9quation (DNP)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dacom", 
-                        "format": "default"
+                        "title": "dotation d'am\u00e9nagement des communes d'outre-mer (DACOM)'"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "dsr_c", 
-                        "format": "default"
+                        "title": "dotation de solidarit\u00e9 rurale \"cible\" (DSR C)"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_prelevement", 
-                        "format": "default"
+                        "title": "Pr\u00e9l\u00e8vement de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_versement", 
-                        "format": "default"
+                        "title": "Versement FPIC au profit de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fpic_solde", 
-                        "format": "default"
+                        "title": "Solde FPIC de la commune isol\u00e9e"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrif_prelevement", 
-                        "format": "default"
+                        "title": "Pr\u00e9l\u00e8vement FSRIF de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrif_versement", 
-                        "format": "default"
+                        "title": "Versement FSRIF de la commune"
                     }, 
                     {
+                        "format": "default", 
                         "type": "integer", 
                         "name": "fsrid_solde", 
-                        "format": "default"
+                        "title": "Solde FSRIF de la commune"
                     }
                 ], 
                 "missingValues": [
