@@ -1,10 +1,12 @@
+ANNEES=`seq 2014 2019`
+
 # téléchargement des fichiers CSV
-for a in `seq 2014 2017`
+for a in $ANNEES
 do
   for c in 02 05 12 13 14 16 15 18 19 20 21 22 23 24
   do
     echo "Download $a-$c"
-    curl -s "http://www.dotations-dgcl.interieur.gouv.fr/consultation/dotation_communes.php?annee=$a&dot=c$c" > dgf-$a-$c.csv
+    wget -q -N -c "http://www.dotations-dgcl.interieur.gouv.fr/consultation/dotation_communes.php?annee=$a&dot=c$c" -O dgf-$a-$c.csv
   done
   mv dgf-$a-05.csv dgf-$a-00.csv
   mv dgf-$a-02.csv dgf-$a-10.csv
@@ -24,7 +26,7 @@ do
 done
 
 # agrégation des colonnes par année et renommage des colonnes
-for a in `seq 2014 2017`
+for a in $ANNEES
 do
   csvjoin -c 1 --left clean_dgf-$a-*.csv | sed 's!depcom,commune.*$!depcom,commune,dotation_forfaitaire,dotation_elu_local,dsu,dsr_bc,dsr_p,dnp,dacom,dsr_c,fpic_prelevement,fpic_versement,fpic_solde,fsrif_prelevement,fsrif_versement,fsrid_solde!' > $a.csv
 done
